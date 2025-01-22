@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class MainActivity extends AppCompatActivity {
 
     private EditText editTextMessage;
-    private TextView textViewChat;
+    rivate TextView textViewChat;
     private Socket socket;
     private PrintWriter out;
     private Scanner in;
