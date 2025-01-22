@@ -45,7 +45,7 @@ public class Test1 {
         json.put("password", "asdf");
         persona.fromJson(json);
 
-        assertEquals("Ana1", persona.getNombre());
+        assertEquals("Ana", persona.getNombre());
         assertEquals("García", persona.getApellido());
         assertEquals("987654321", persona.getTelefono());
         assertEquals("1010101010", persona.getId());
