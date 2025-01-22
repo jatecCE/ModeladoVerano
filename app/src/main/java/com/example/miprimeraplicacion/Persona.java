@@ -6,7 +6,7 @@ import org.json.JSONObject;
 public class Persona {
 
     private  String nombre;
-    pRivate String apellido;
+    private String apellido;
     private String id;
     private String telefono;
     private String password;
